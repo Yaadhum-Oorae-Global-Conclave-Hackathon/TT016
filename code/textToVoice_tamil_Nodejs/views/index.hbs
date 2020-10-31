@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <audio controls id="linkAudio">
+      <source src="../Voice.mp3" type="audio/mpeg">
+    </audio>
+
+  </head>
+  <body>
+    <form class="" action="./voice2txt" method="post">
+      <input type="text" id="texttamil" value="">
+      <input type="submit" name="" value="submit">
+    </form>
+    <button type="button" id="btn" onclick="playaud()" name="button">play</button>
+
+    <script type="text/javascript">
+      function playaud(){
+        document.getElementById("linkAudio").play();
+      }
+    </script>
+  </body>
+</html>
