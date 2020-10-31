@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <title>FRIED DATA - TEAM</title>
+
+  </head>
+  <body>
+    <div class="head_form col-6" style="margin-top:20px">
+        <h3>Say something!</h3>
+      <form>
+        <!-- <div class="form form-group">
+          <label for="InputName">Name</label>
+          <input type="text" class="form-control" id="InputName" placeholder="Your Name">
+          <button type="button" id="btn1" class="btn btn-secondary" onclick="spchToTxt()">speechRego</button>
+        </div> -->
+        <div class="form form-group">
+          <h4>Message (TAMIL)</h4>
+          <!-- <input type="text" class="form-control" id="InputMessage" placeholder="Message"> -->
+          <textarea id="InputMessage" rows="10" cols="30" value="" style="margin:20px;border-style: solid;"></textarea>
+          <br/>
+          <button type="button" id="btn1" class="btn btn-secondary" onclick="spchToTxt()">speechRego</button>
+        </div>
+      </form>
+    </div>
+        <div class="container">
+          <div class="texts">
+          </div>
+        </div>
+        <script src="app.js"></script>
+  </body>
+</html>
